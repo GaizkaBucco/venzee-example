@@ -1,0 +1,494 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Amiko",Helvetica, sans-serif;
+}
+
+.content-wrapper {
+   /* outline: 1px dotted green; */
+   width: 83%;
+   height: 100%;
+}
+
+.header {
+   display: flex;
+   justify-content: center;
+   /* height: 90px; */
+}
+
+.header-container {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header-logo {
+   width: 200px;
+}
+
+.header-menu {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   list-style: none;
+}
+
+.header-menu-item {
+   padding: 30px 20px;
+}
+
+.header-menu a {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #6e6d70;
+   font-size: 16px;
+   line-height: 1.88;
+   letter-spacing: 1px;
+}
+
+.home-banner {
+   background: linear-gradient(rgba(39, 39, 39, 0.01), rgba(39, 39, 39, 0.0)), url(https://www.venzee.com/hubfs/Images/venzee-home-hero.svg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* height: 570px; */
+}
+
+.home-banner-wrapper {
+   height: 100%;
+}
+
+.home-banner-content {
+   padding-top: 110px;
+   padding-bottom: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.home-banner-text {
+   max-width: 50%;
+}
+
+.home-banner-text h1 {
+   font-family: "Muli",Arial, Helvetica, sans-serif;
+   color: #542e88;
+   font-size: 46px;
+   font-weight: 600;
+   line-height: 1.2;
+   margin: 0 0 0.5rem 0;
+}
+
+.home-banner-buttons-container {
+   margin-top: 80px;
+   display: flex;
+}
+
+.btn {
+   padding: 0.7em 1.7em;
+   border-radius: 3em;
+}
+
+.purple-btn {
+   background-color: #542e88;
+}
+
+.purple-btn a {
+   color: #fff;
+}
+
+.btn a {
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+.home-banner-btn {
+   margin-right: 0.5rem;
+}
+
+.home-banner-img {
+   min-height: 380px;
+   background-image: url(https://www.venzee.com/hubfs/Images/venzee-hero-img.svg);
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 40%;
+}
+
+.diagram-section {
+   display: flex;
+   justify-content: center;
+   /* height: 670px; */
+}
+
+.diagram-section::before {
+   content: '';
+   display: inline-block;
+   width: 250px;
+   height: 460px;
+   position: absolute;
+   top: 138%;
+   left: 0;
+   background-image: url(https://f.hubspotusercontent10.net/hubfs/2562462/Images/venzee-bg-triangle.svg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: 0 50%;
+}
+
+.diagram-wrapper {
+   padding: 0 210px 58px 210px;
+}
+
+.diagram-wrapper img {
+   max-width: 850px;
+}
+
+.video-section {
+   /* width: 100%; */
+   display: flex;
+   justify-content: center;
+   height: 598px;
+}
+
+.video-section-wrapper {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+}
+
+.video-wrapper {
+   height: 100%;
+   width: 73%;
+}
+
+.brands-section {
+   display: flex;
+   justify-content: center;
+   /* outline: 1px dotted red; */
+   padding: 100px 0 140px 0;
+   /* height: 630px; */
+}
+
+.section-text-left {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.section-text {
+   width: 40%;
+}
+
+.section-text h2 {
+   color: #542e88;
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 1.2;
+   margin-bottom: 0.5rem;
+}
+
+.section-text-content {
+   width: 89%;
+}
+
+.section-text h3 {
+   color: #1d1d1d;
+   font-size: 22px;
+   font-weight: 600;
+   margin-bottom: 10px;
+   margin-top: 0;
+   line-height: 1.2;
+}
+
+.section-text p {
+   margin-bottom: 1rem;
+   margin-top: 0;
+   font-size: 1rem;
+   line-height: 1.6;
+   color: #4d4d4d;
+   font-weight: 400;
+}
+
+.section-text-left-button {
+   width: 33%;
+}
+
+.section-image {
+   width: 48%;
+}
+
+.partners-section {
+   display: flex;
+   justify-content: center;
+   /* outline: 1px dotted red; */
+   padding: 100px 0 100px 0;
+   /* height: 620px; */
+}
+
+.partners-section::before {
+   content: '';
+   display: inline-block;
+   width: 210px;
+   height: 370px;
+   position: absolute;
+   top: 325%;
+   right: 0;
+   background-image: url(https://f.hubspotusercontent10.net/hubfs/2562462/Images/venzee-yellow-triangle.svg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.partners-section h3 {
+   color: #4d4d4d;
+   font-weight: 500;
+}
+
+.partners-section img {
+   max-height: 380px;
+}
+
+.retailers-section {
+   display: flex;
+   justify-content: center;
+   padding: 110px 0 110px 0;
+   /* height: 530px; */
+}
+
+.retailers-section::after {
+   content: '';
+   display: inline-block;
+   width: 140px;
+   height: 290px;
+   position: absolute;
+   bottom: -350%;
+   left: 0;
+   background-image: url(https://f.hubspotusercontent10.net/hubfs/2562462/Images/venzee-bg-triangle-small.svg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.retailers-section img {
+   max-height: 350px;
+}
+
+.slideshow-section {
+   display: flex;
+   justify-content: center;
+   /* outline: 1px dotted red; */
+   height: 710px;
+}
+
+.slideshow-wrapper {
+   padding: 0 300px;
+   height: 659px;
+   width: 659px;
+}
+
+.slides {
+   height: 100%;
+   scroll-snap-type: x mandatory;
+   -webkit-overflow-scrolling: touch;
+   display: flex;
+   overflow-x: scroll;
+}
+
+.slideshow-section section {
+   height: 100%;
+   min-width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   scroll-snap-align: start;
+}
+.slides::-webkit-scrollbar {
+   display: none;
+ }
+
+.section-1 {
+   background-image: url(https://www.venzee.com/hubfs/Venzee%20Testimonial%202.png);
+}
+
+.section-2 {
+   background-image: url(https://www.venzee.com/hubfs/Venzee%20Testimonial%203.png);
+}
+
+.section-3 {
+   background-image: url(https://www.venzee.com/hubfs/Venzee%20Testimonial%201.png);
+}
+
+.join-section {
+   background: linear-gradient(270deg,rgba(54,13,73,1),rgba(115,18,92,1));
+   display: flex;
+   justify-content: center;
+   /* outline: 1px dotted red; */
+   /* height: 439px; */
+}
+
+.join-section-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 100px 0 100px 0;
+   width: 100%;
+   height: 100%;
+}
+
+.join-section-content-wrapper {
+   max-width: 850px;
+}
+
+.join-section-content-wrapper h3 {
+   color: #fff;
+   font-size: 35px;
+   font-weight: 700;
+   line-height: 1.2;
+   margin-top: 0;
+   margin-bottom: .5rem;
+   text-align: center;
+}
+
+.join-section-content-wrapper p {
+   color: #fff;
+   margin: 0;
+   font-size: 18px;
+   text-align: center;
+   line-height: 1.6;
+   font-weight: 400;
+}
+
+.join-section-btn {
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+.join-button {
+   background-color: #fff;
+   max-width: 86px;
+}
+
+.footer {
+   display: flex;
+   justify-content: center;
+   /* outline: 1px dotted red; */
+   /* height: 320px; */
+}
+
+.footer-wrapper {
+   padding: 60px 0 20px;
+}
+
+.footer-content {
+   display: flex;
+}
+
+.footer-logo-content {
+   width: 30%;
+}
+
+.footer-logo img {
+   max-width: 200px;
+}
+
+.footer-logo-links {
+   color: #717171;
+   font-size: 12px;
+   line-height: 1.83;
+}
+
+.footer-logo-links a{
+   color: #70707099;
+   text-decoration: none;
+   margin-right: 10px;
+   font-size: 12px;
+   line-height: 1.83;
+}
+
+.footer-logo-links i {
+   font-weight: 400;
+   font-size: 24px;
+   color: #5b2c84;
+   opacity: 100%;
+}
+
+.footer-menus {
+   display: flex;
+   width: 70%;
+}
+
+.footer-menu {
+   width: calc(100% / 3);
+   padding: 0 15px 10px;
+   text-align: center;
+}
+
+.footer-menu h4 {
+   font-family: "Amiko",Arial, Helvetica, sans-serif;
+   color: #5b2c84;
+   font-size: 16px;
+   line-height: 1.19;
+   font-weight: 300;
+   text-transform: uppercase;
+   margin: 0 0 30px;
+}
+
+.footer-menu ul {
+   list-style: none;
+   margin-bottom: 0;
+   padding: 0;
+   text-align: center;
+}
+
+.footer-menu li {
+   display: block;
+   float: none;
+   line-height: 0;
+   margin-bottom: 10px;
+}
+
+.footer-menu a {
+   display: inline-block;
+   white-space: nowrap;
+   max-width: 140px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   color: #717171;
+   font-size: 15px;
+   line-height: 1.73 ;
+   text-decoration: none;
+   padding: 0;
+}
+
+.footer-bottom-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0;
+   padding-top: 38px;
+}
+
+.footer-bottom-wrapper p {
+   margin-bottom: 0;
+}
+
+.footer-bottom-description {
+   width: 50%;
+   color: #bdbdbd;
+   font-size: 13px;
+   line-height: 1.69;
+   text-align: left;
+}
+
+.footer-bottom-copyright {
+   width: 50%;
+   color: #bdbdbd;
+   font-size: 13px;
+   line-height: 1.69;
+   text-align: right;
+}
